@@ -1,0 +1,11 @@
+Z:\MyProject\ClientServerTest\Server\bin\Debug\Server.exe.config
+Z:\MyProject\ClientServerTest\Server\bin\Debug\Server.exe
+Z:\MyProject\ClientServerTest\Server\bin\Debug\Server.pdb
+Z:\MyProject\ClientServerTest\Server\obj\Debug\Server.exe
+Z:\MyProject\ClientServerTest\Server\obj\Debug\Server.pdb
+Z:\MyProject\ClientServerTest\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\MyProject\ClientServerTest\Server\bin\Debug\Server.exe.config
+D:\MyProject\ClientServerTest\Server\bin\Debug\Server.exe
+D:\MyProject\ClientServerTest\Server\bin\Debug\Server.pdb
+D:\MyProject\ClientServerTest\Server\obj\Debug\Server.exe
+D:\MyProject\ClientServerTest\Server\obj\Debug\Server.pdb
