@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using System.Runtime.CompilerServices;
 using System.Text;
 
 namespace Server
@@ -54,7 +52,7 @@ namespace Server
                         {
                             var text = "User already login";
                             Console.WriteLine(text);
-                            ConnectHandle.sendSystemMessage($"type=systemcommand$text={text}",clientSocket);
+                            ConnectHandle.sendSystemMessage($"type=systemcommand$text={text}$",clientSocket);
                             clientSocket.Client.Close(0);
                             clientSocket = null;
                         }

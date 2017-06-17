@@ -56,12 +56,20 @@ namespace Client
                         DataFromServerTb.AppendText(dataParser(dataFromServer) + Environment.NewLine);
                     });
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
-                    MessageBox.Show(ex.ToString());
+                    setToNull();
                     break;
                 }
             }
+        }
+
+        void setToNull()
+        {
+            _clientSocket?.Close();
+            serverStream.Close();
+            _clientSocket = new TcpClient();
+            //DataFromServerTb.Text = String.Empty;
         }
         private void connect_OnClick(object sender, RoutedEventArgs e)
         {
@@ -94,9 +102,7 @@ namespace Client
                                                        "$text=text" + "$");
                 serverStream.Write(outStream, 0, outStream.Length);
                 serverStream.Flush();
-                _clientSocket?.Close();
-                serverStream.Close();
-                _clientSocket = new TcpClient();
+                setToNull();
             }
             catch (Exception exception)
             {
@@ -110,12 +116,9 @@ namespace Client
             {
                 var outStream = Encoding.UTF8.GetBytes("command=disconnect" +
                                                           $"$userLogin={login}" +
-                                                          "$uniqueKey=key");
+                                                          "$uniqueKey=key$");
                 serverStream.Write(outStream, 0, outStream.Length);
                 serverStream.Flush();
-
-                _clientSocket.Close();
-                serverStream.Close();
             }
             catch (Exception)
             {

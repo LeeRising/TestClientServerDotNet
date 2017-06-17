@@ -12,7 +12,6 @@
         <TextBox x:Name="USerNameTb" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Button Content="Connect" Click="connect_OnClick" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="75"/>
         <Button Content="Disconnect" Click="disconnect_OnClick" HorizontalAlignment="Left" Margin="191,50,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="TestTb" HorizontalAlignment="Left" Height="23" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="DataFromServerTb" IsEnabled="False" Margin="10,84,11,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100"/>
     </Grid>
 </Window>
