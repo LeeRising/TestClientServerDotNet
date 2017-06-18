@@ -24,3 +24,4 @@ D:\MyProject\ClientServerTest\Client\obj\Debug\Client.Properties.Resources.resou
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.csproj.GenerateResource.Cache
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.exe
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.pdb
+D:\MyProject\ClientServerTest\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache

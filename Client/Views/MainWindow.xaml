@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Client"
         mc:Ignorable="d"
-        WindowStartupLocation="CenterOwner"
+        WindowStartupLocation="CenterScreen"
         Closed="MainWindow_OnClosed"
-        Title="Test Tcp Client" Height="234.499" Width="294.723">
+        ResizeMode="NoResize"
+        Title="Test Tcp Client" Height="241" Width="304">
     <Grid>
-        <TextBox x:Name="USerNameTb" HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Connect" Click="connect_OnClick" HorizontalAlignment="Left" Margin="191,10,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Disconnect" Click="disconnect_OnClick" HorizontalAlignment="Left" Margin="191,50,0,0" VerticalAlignment="Top" Width="75"/>
-        <TextBox x:Name="DataFromServerTb" IsEnabled="False" Margin="10,84,11,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100"/>
+        <TextBox x:Name="USerNameTb" HorizontalAlignment="Left" Height="23" Margin="23,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Connect" Click="connect_OnClick" HorizontalAlignment="Left" Margin="204,18,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Content="Disconnect" Click="disconnect_OnClick" HorizontalAlignment="Left" Margin="204,50,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="DataFromServerTb" IsEnabled="False" Margin="0,86,20,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="100" HorizontalAlignment="Right" Width="256"/>
     </Grid>
 </Window>
