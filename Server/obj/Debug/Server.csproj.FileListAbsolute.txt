@@ -9,3 +9,9 @@ D:\MyProject\ClientServerTest\Server\bin\Debug\Server.exe
 D:\MyProject\ClientServerTest\Server\bin\Debug\Server.pdb
 D:\MyProject\ClientServerTest\Server\obj\Debug\Server.exe
 D:\MyProject\ClientServerTest\Server\obj\Debug\Server.pdb
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\bin\Debug\Server.exe.config
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\bin\Debug\Server.exe
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\bin\Debug\Server.pdb
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\obj\Debug\Server.exe
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Server\obj\Debug\Server.pdb

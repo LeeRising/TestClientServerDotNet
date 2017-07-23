@@ -25,3 +25,17 @@ D:\MyProject\ClientServerTest\Client\obj\Debug\Client.csproj.GenerateResource.Ca
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.exe
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.pdb
 D:\MyProject\ClientServerTest\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\bin\Debug\Client.exe.config
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\bin\Debug\Client.exe
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\bin\Debug\Client.pdb
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.csprojResolveAssemblyReference.cache
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Views\MainWindow.g.cs
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\App.g.cs
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client_MarkupCompile.cache
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client_MarkupCompile.lref
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Views\MainWindow.baml
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.g.resources
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.Properties.Resources.resources
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.exe
+D:\MyProject\MyGitHubTestProject\ClientServerTest\Client\obj\Debug\Client.pdb

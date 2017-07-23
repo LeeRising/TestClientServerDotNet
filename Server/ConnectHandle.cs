@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace Server
 {
     public class ConnectHandle
     {
-        TcpClient _clientSocket;
-        List<Thread> threadList = new List<Thread>();
-
-        List<Incapsulation.ConnectionUser> _clientsList;
+        private TcpClient _clientSocket;
+        public List<Task> TaskList { get; } = new List<Task>();
+        public List<Incapsulation.ConnectionUser> ClientsList { get; private set; }
 
         public void startClient(TcpClient inClientSocket, List<Incapsulation.ConnectionUser> cList)
         {
             this._clientSocket = inClientSocket;
-            this._clientsList = cList;
-            threadList.Add(new Thread(doDataExchange));
-            threadList[threadList.Count - 1].Start();
+            this.ClientsList = cList;
+            TaskList.Add(new Task(doDataExchange));
+            TaskList[TaskList.Count - 1].Start();
         }
 
         private async void doDataExchange()
@@ -60,7 +60,7 @@ namespace Server
             if (command != "disconnect") return;
             var removeIndex = Incapsulation.connectedUsers.FindIndex(i => i.UserName == userLogin);
             Incapsulation.connectedUsers.RemoveAt(removeIndex);
-            threadList[removeIndex].Abort();
+            TaskList[removeIndex].Dispose();
             Console.WriteLine($"\nUser {userLogin} disconnected!\n");
         }
     }
